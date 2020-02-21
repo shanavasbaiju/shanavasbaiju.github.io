@@ -1,0 +1,319 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'geomanistregular';
+  src: url('../fonts/geomanist-regular-webfont.eot');
+  src: url('../fonts/geomanist-regular-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/geomanist-regular-webfont.woff2') format('woff2'),
+    url('../fonts/geomanist-regular-webfont.woff') format('woff'),
+    url('../fonts/geomanist-regular-webfont.ttf') format('truetype'),
+    url('../fonts/geomanist-regular-webfont.svg#geomanistregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'geomanistbold';
+  src: url('../fonts/geomanist-bold-webfont.eot');
+  src: url('../fonts/geomanist-bold-webfont.eot?#iefix')
+      format('embedded-opentype'),
+    url('../fonts/geomanist-bold-webfont.woff2') format('woff2'),
+    url('../fonts/geomanist-bold-webfont.woff') format('woff'),
+    url('../fonts/geomanist-bold-webfont.ttf') format('truetype'),
+    url('../fonts/geomanist-bold-webfont.svg#geomanistregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'geomanistregular', sans-serif;
+  position: relative;
+  color: #484848;
+}
+
+h2 {
+  font-size: 60px;
+  padding-bottom: 40px;
+  color: #000000;
+}
+h3 {
+  padding-bottom: 50px;
+}
+.sub-des {
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+.clr {
+  clear: both;
+}
+
+.grid {
+  max-width: 1024px;
+  margin: auto;
+  position: relative;
+}
+
+.grid-sm {
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+}
+
+.grid-md {
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+}
+
+.col-50 {
+  width: 50%;
+  float: left;
+}
+
+.col-50 img {
+  display: block;
+  width: 100%;
+}
+
+.top-banner {
+  background-color: black;
+  height: 100vh;
+  color: #ffffff;
+  position: relative;
+}
+h1 {
+  color: #ffffff;
+  font-family: 'geomanistbold';
+  font-size: 160px;
+  line-height: 130px;
+}
+.sub-content {
+  margin-top: 30px;
+}
+.content {
+  max-width: 1024px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  -webkit-transform: translate(-40%, -40%);
+  transform: translate(-40%, -40%);
+  text-align: center;
+  z-index: 99;
+}
+
+video {
+  background-position: center;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+  -webkit-filter: blur(0);
+  filter: blur(0);
+  height: 100%;
+  transition: -webkit-filter 0.35s ease-in-out;
+  transition: filter 0.35s ease-in-out;
+  transition: filter 0.35s ease-in-out, -webkit-filter 0.35s ease-in-out;
+  width: 100%;
+}
+
+app-video[_ngcontent-coverr-redesign-c7] {
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.object {
+  padding-bottom: 80px;
+}
+.object img {
+  display: block;
+  width: 100%;
+}
+
+section {
+  padding: 70px 0;
+  text-align: center;
+}
+
+.logo-display {
+  float: left;
+  width: 50%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.black {
+  background-color: black;
+  border: 1px solid black;
+}
+.white {
+  background-color: #ffffff;
+  border: 1px solid #ececec;
+  color: #000000 !important;
+}
+.navy {
+  background-color: #29407f;
+  color: #ffffff !important;
+  border: 1px solid #29407f;
+}
+.yellow {
+  background-color: #fbb615;
+  color: #000000 !important;
+  border: 1px solid #fbb615;
+}
+.bold {
+  font-family: 'geomanistbold';
+}
+.btn-wrapper {
+  padding-top: 60px;
+}
+.btn {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 12px;
+  transition: all 0.2s ease-in-out 0s;
+  position: relative;
+}
+.btn:hover {
+  transform: translateY(-0.2em);
+}
+.black-bg {
+  display: inline-block;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 4px 12px;
+  font-family: 'geomanistbold';
+}
+.navy-bg {
+  display: inline-block;
+  background-color: #29407f;
+  color: #ffffff;
+  padding: 4px 12px;
+  font-family: 'geomanistbold';
+}
+.yello-bg {
+  display: inline-block;
+  background-color: #fbb615;
+  color: #000000;
+  padding: 4px 12px;
+  font-family: 'geomanistbold';
+}
+.pallet-main .left-section {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+}
+.pallet-main .right-section {
+  display: inline-block;
+  width: 39%;
+  vertical-align: top;
+}
+.pallet-box {
+  width: 49%;
+  display: inline-block;
+  padding: 5px;
+}
+.pallet-box p {
+  padding-bottom: 3px;
+}
+.color-bg {
+  padding: 50px 0;
+  color: #ffffff;
+}
+.color-bg .titlle {
+  font-size: 20px;
+  font-family: 'geomanistbold';
+  padding-bottom: 6px;
+}
+h3.big-text {
+  font-size: 30px;
+  margin-bottom: 0;
+  padding-bottom: 25px;
+}
+.color-shades {
+  padding-top: 50px;
+}
+
+td.hex-color {
+  height: 5rem;
+  min-width: 5rem;
+  cursor: pointer;
+  position: relative;
+  outline: 0;
+}
+
+.color-shades {
+  overflow-x: auto;
+  width: 100%;
+  outline: 0;
+}
+.color-shades table {
+  width: 100%;
+}
+.table {
+  padding-bottom: 30px;
+}
+.contrast {
+  padding-top: 30px;
+}
+.font-details {
+  text-align: left;
+}
+.font-details img {
+  display: block;
+  width: 100%;
+}
+.do img {
+  width: 100%;
+  display: block;
+}
+
+.big-text-footer {
+  font-size: 130px;
+  color: #000000;
+  font-family: 'geomanistbold';
+  line-height: 150px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footerp{
+  font-size: 14px;
+  font-family: 'geomanistregular';
+}
+
+.footer {
+  height: 100vh;
+}
+
+@media (max-width: 980px) {
+}
