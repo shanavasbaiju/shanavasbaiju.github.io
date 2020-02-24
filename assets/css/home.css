@@ -1,0 +1,237 @@
+.home-wrapper {
+  height: 100vh;
+  background-color: #fbf7f4;
+  background: url(../images/home-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.logo-container {
+  padding-top: 60px;
+}
+.logo-container img {
+  width: 131px;
+}
+.home-content {
+  display: inline-block;
+  width: 90%;
+  padding-top: 60px;
+}
+.home-content h1 {
+  font-family: 'Museo Sans Rounded 1000';
+  font-size: 100px;
+  line-height: 100px;
+  color: #002940;
+}
+.home-content p {
+  color: #7b7b7b;
+}
+.home-work {
+  width: 80%;
+  padding-top: 50px;
+}
+.home-work-thumb {
+  padding-top: 0;
+}
+.home-thumb-item {
+  display: inline-block;
+  width: 100px;
+  margin-right: 20px;
+  transition: all 0.2s ease-in-out 0s;
+}
+.home-thumb-item:hover {
+  transform: translateY(-0.3em);
+}
+.home-thumb-item img {
+  display: block;
+  width: 100px;
+}
+a.home-thumb-more {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  vertical-align: top;
+  border: 1px solid #979797;
+  border-radius: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: #484848;
+  padding-top: 40px;
+  font-size: 13px;
+  transition: all 0.2s ease-in-out 0s;
+}
+a.home-thumb-more:hover {
+  transform: translateY(-0.3em);
+}
+.blue-light {
+  background-color: #f8fffe;
+}
+.blue-light2 {
+  background-color: #e7fffc;
+}
+.grey-bg{
+  background-color: #f3f3f3;
+}
+.margin-top-zero {
+  margin-top: 0 !important;
+}
+.margin-bottom-zero {
+  margin-bottom: 0 !important;
+}
+.padding-top-zero {
+  padding-top: 0 !important;
+}
+
+.footer-nav-wrapper {
+  background-color: rgba(255, 255, 255, 0.92);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 1px solid #eeeeee;
+}
+ul.footer-nav {
+  width: 800px;
+  margin: 0;
+  padding: 0;
+  padding: 20px 0;
+  margin: auto;
+}
+ul.footer-nav li {
+  list-style: none;
+  display: inline-block;
+  width: 24%;
+  margin-bottom: 0;
+  text-align: center;
+}
+ul.footer-nav li img {
+  width: 25px;
+}
+ul.footer-nav li .text {
+  position: relative;
+  top: 0;
+  left: 6px;
+}
+ul.footer-nav li a {
+  color: #484848;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out 0s;
+}
+ul.footer-nav li a:hover .icon {
+  color: #93d4d5;
+  transition: color 0.2s ease-in-out 0s;
+}
+ul.footer-nav li.active {
+  font-weight: 500;
+}
+ul.footer-nav li.active .icon {
+  color: #93d4d5;
+}
+ul.footer-nav li.active a {
+  cursor: default;
+  color: #484848;
+}
+.common-h1 {
+  font-family: 'Museo Sans Rounded 1000';
+  font-size: 100px;
+  line-height: 100px;
+  color: #002940;
+  padding-top: 60px;
+}
+.other-title{
+  padding-top: 0 !important;
+}
+.flow {
+  margin-top: 20px;
+}
+.flow a {
+  display: inline-block;
+  color: #484848;
+  margin: 10px;
+  margin-left: 0;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.2s ease-in-out 0s;
+}
+.flow a:hover {
+  transform: translateY(-0.1em);
+}
+.col-1-4 {
+  display: inline-block;
+  vertical-align: top;
+  width: 23%;
+  padding-right: 20px;
+}
+
+.strock-text {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 4px;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  -moz-text-stroke-color: #06344b;
+  -webkit-text-stroke-color: #06344b;
+  -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
+}
+@supports (
+    (-webkit-text-stroke-color: #666) and (-webkit-text-fill-color: transparent)
+  )
+  or ((-moz-text-stroke-color: #666) and (-moz-text-fill-color: transparent)) {
+}
+
+.circular-menu{
+  display: none;
+}
+
+@media (max-width: 980px) {
+  .grid {
+    padding: 0 20px;
+  }
+  .logo-container {
+    padding-top: 30px;
+  }
+  .logo-container img {
+    width: 110px;
+  }
+  .home-content {
+    width: 100%;
+    padding-top: 40px;
+  }
+  .home-content h1, .common-h1 {
+    font-size: 44px;
+    line-height: 45px;
+  }
+  .home-work {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .home-thumb-item {
+    width: 27%;
+    margin-right: 10px;
+  }
+  a.home-thumb-more {
+    width: 27%;
+    height: 90px;
+    padding-top: 36px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  .strock-text {
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 4px;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    -moz-text-stroke-color: #06344b;
+    -webkit-text-stroke-color: #06344b;
+    -moz-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1px;
+  }
+  .footer-nav-wrapper{
+    display: none;
+  }
+  .circular-menu{
+    display: block;
+  }
+}

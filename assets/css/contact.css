@@ -1,0 +1,52 @@
+.contact-wrapper{
+  margin-bottom: 160px;
+}
+.contact-content{
+  padding-top: 70px;
+}
+.contact-content .common-h1{
+  padding-top: 0;
+}
+.contact-content .title {
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  color: #3b393d;
+  font-weight: 300;
+  font-style: normal;
+}
+.contact-content p{
+  color: #7b7b7b;
+  padding-bottom: 10px;
+}
+.contact-content b{
+  display: block;
+  color: #484848;
+}
+.contact-bg{
+  display: inline-block;
+  width: 80%;
+  height: 60vh;
+  background: url(../images/contact-bg.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  border-radius: 14px;
+}
+
+@media (max-width: 980px) {
+  .contact-content{
+    padding-top: 40px;
+  }
+  .col-1-1{
+    width: 100%;
+  }
+  .contact-bg{
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+  .contact-wrapper{
+    margin-bottom: 50px;
+  }
+}
